@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1340
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RNA_Simples", "RNA_Simples\RNA_Simples.pyproj", "{78A201BE-609F-44BE-A662-37D184D4F7FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78A201BE-609F-44BE-A662-37D184D4F7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A201BE-609F-44BE-A662-37D184D4F7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {376826F9-FF13-45D5-A313-0A2E575A0B6C}
+	EndGlobalSection
+EndGlobal
