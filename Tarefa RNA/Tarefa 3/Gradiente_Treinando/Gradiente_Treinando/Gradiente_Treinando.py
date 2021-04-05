@@ -24,7 +24,8 @@ learnrate = 0.5
 v_entrada = np.array([1, 2, 3, 4])
 print("Entrada: ", v_entrada)
 
-y = np.array(0.5)
+y = np.array(0.5) # Saida Esperada
+print("y: ", y)
 
 b = 0.5
 print("b: ", b)
@@ -42,10 +43,12 @@ saida = sigmoid(calculo)
 print("A primeira saída da rede é: ", saida)
 
 count = 0
-while count < 5000: # Implementar condição de parada
+while count < 100000: # Implementar condição de parada
     #Erro Calcular de rede neural
     erro = y - saida
-    #print("Erro: ", erro)
+
+    if saida == y or abs(erro) <= 0.00000000000000001:
+        break
 
     #Termo de erro
     termo_erro = erro * sigmoid_prime(calculo)
@@ -56,13 +59,16 @@ while count < 5000: # Implementar condição de parada
 
     # Atualizar pesos (Inicio treinamento)
     v_pesos += del_w
-    #print("Pesos: ", v_pesos)
+    print("Pesos: ", v_pesos)
 
     #Cálculo de combinação linear de entrada e pesos sinápticos
-    calculo = np.dot(v_entrada, v_pesos) + b
+    calculo = np.dot(v_entrada, v_pesos)# + b
+
+    #Aplicando a função de ativação do neurônio
+    saida = sigmoid(calculo)
+    print("Saida: ", saida)
 
     count += 1
 
-#Aplicando a função de ativação do neurônio
-saida = sigmoid(calculo)
+print("Count: ", count)
 print("A última saída da rede é: ", saida)
