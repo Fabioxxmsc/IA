@@ -1,0 +1,6 @@
+* - Tarefa 4 - MPL 4x3x2:  A seguir, você implementará uma rede 4x3x2 orientada a frente, com funções de ativação sigmóide em ambas as camadas.  Coisas a fazer:
+
+* Calcular o input da camada oculta.
+* Calcular o output da camada oculta.
+* Calcular o input da camada de output.
+* Calcular o output da rede.
