@@ -22,7 +22,7 @@ weigths_in_out = np.array([[-0.18, 0.11],
                            [-0.04, 0.05],
                            [-0.02, 0.07]])
 
-#Passagem ForWard pela rede
+#Passagem Forward pela rede
 
 #Camada Oculta
 

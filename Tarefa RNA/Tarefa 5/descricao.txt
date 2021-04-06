@@ -1,0 +1,9 @@
+* - Backpropagation:  
+    Abaixo, você implementará o código para calcular uma rodada de atualização com backpropagation 
+    para dois conjuntos de pesos. Escrevi o andamento para frente, 
+    o seu objetivo é escrever o andamento para trás. Coisas a fazer:
+
+* Calcular o erro da rede.
+* Calcular o gradiente de erro da camada de output.
+* Usar a backpropagation para calcular o erro da camada oculta.
+* Calcular o passo de atualização dos pesos.
