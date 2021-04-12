@@ -1,0 +1,11 @@
+* - Algoritmo Backpropagation: Agora você implementará o algoritmo backpropagation em uma rede 
+    treinada com os dados contidos no arquivo Data.csv. 
+    O carregamento deste arquivo para o dataset, a separação dos dados de treinamento e validação da MPL já foram realizados.
+    Você possui tudo o que precisa para resolver a tarefa 6 nas tarefas anteriores. Seus objetivos aqui:
+
+* Implementar o algoritmo de backpropagation:
+* Implementar o andamento adiante (forward).
+* Implementar o andamento para trás (backward).
+* Atualizar os pesos.
+* Calcular a evolução do erro de treinamento (feito pelo professor).
+* Calcular o Erro Quadrático Médio dos dados de validação (feito pelo professor).
